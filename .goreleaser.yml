@@ -1,0 +1,22 @@
+# .goreleaser.yml
+project_name: runr
+release:
+  github:
+    owner: derektata
+    name: runr
+builds:
+- env:
+    - CGO_ENABLED=0
+  goos:
+    - linux
+    - darwin
+    - windows
+  goarch:
+    - amd64
+    - arm64
+archives:
+  - format: tar.gz
+    files:
+      - license*
+      - readme*
+
