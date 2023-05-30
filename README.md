@@ -68,5 +68,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 This project is licensed under the MIT License - see the [LICENSE] file for details.
 
 
-[releases page]: https://github.com/username/runr/releases
+[releases page]: https://github.com/derektata/runr/releases/latest
 [LICENSE]: https://github.com/derektata/runr/blob/main/LICENSE
